@@ -72,7 +72,7 @@ public class JobConfig {
     @Bean(initMethod = "start", destroyMethod = "stop")
     public StreamMessageListenerContainer<String, ObjectRecord<String, String>> dataStreamMessageListenerContainer(Executor dataRedisStreamExecutor,
                                                                                                                RedisConnectionFactory redisConnectionFactory,
-                                                                                                               RedisTemplate redisTemplate,
+                                                                                                               RedisTemplate<String, Object> redisTemplate,
                                                                                                                ApplicationContext applicationContext
     ) {
 
@@ -111,7 +111,7 @@ public class JobConfig {
     @Bean(initMethod = "start", destroyMethod = "stop")
     public StreamMessageListenerContainer<String, ObjectRecord<String, String>> streamMessageListenerContainerDataset(Executor datasetRedisStreamExecutor,
                                                                                                                RedisConnectionFactory redisConnectionFactory,
-                                                                                                               RedisTemplate redisTemplate,
+                                                                                                               RedisTemplate<String, Object> redisTemplate,
                                                                                                                ApplicationContext applicationContext
     ) {
         try {

@@ -2,12 +2,9 @@ package ai.basic.x1.adapter.api.config;
 
 import ai.basic.x1.entity.enums.DatasetTypeEnum;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
