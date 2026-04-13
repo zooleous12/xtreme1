@@ -62,10 +62,10 @@
         "@types/point-in-polygon": "^1.1.1",
         "@types/ua-parser-js": "^0.7.36",
         "@typescript-eslint/parser": "^5.17.0",
-        "@vitejs/plugin-vue": "^2.3.3",
+        "@vitejs/plugin-vue": "^6.0.6",
         "lint-staged": "^12.3.7",
         "typescript": "^4.5.4",
-        "vite": "^2.9.9",
+        "vite": "^8.0.8",
         "vue-tsc": "^0.34.7"
     }
 }
